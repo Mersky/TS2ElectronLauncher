@@ -1,0 +1,72 @@
+{
+    "1": {
+        "url": "http://127.0.0.1/",
+        "badge": "New",
+        "badgeColor": "#43A047",
+        "title": "Test Title 1",
+        "date": "01/02/2024"
+    },
+    "2": {
+        "url": "http://127.0.0.1/",
+        "badge": "Info",
+        "badgeColor": "#00ACC1",
+        "title": "Test Title 2",
+        "date": "01/02/2024"
+    },
+    "3": {
+        "url": "http://127.0.0.1/",
+        "badge": "Hack",
+        "badgeColor": "#E53935",
+        "title": "Test Title 3",
+        "date": "01/02/2024"
+    },
+    "4": {
+        "url": "http://127.0.0.1/",
+        "badge": "New",
+        "badgeColor": "#43A047",
+        "title": "Test Title 4",
+        "date": "01/02/2024"
+    },
+    "5": {
+        "url": "http://127.0.0.1/",
+        "badge": "Info",
+        "badgeColor": "#00ACC1",
+        "title": "Test Title 5",
+        "date": "01/02/2024"
+    },
+    "6": {
+        "url": "http://127.0.0.1/",
+        "badge": "Hack",
+        "badgeColor": "#E53935",
+        "title": "Test Title 6",
+        "date": "01/02/2024"
+    },
+    "7": {
+        "url": "http://127.0.0.1/",
+        "badge": "New",
+        "badgeColor": "#43A047",
+        "title": "Test Title 7",
+        "date": "01/02/2024"
+    },
+    "8": {
+        "url": "http://127.0.0.1/",
+        "badge": "Info",
+        "badgeColor": "#00ACC1",
+        "title": "Test Title 8",
+        "date": "01/02/2024"
+    },
+    "9": {
+        "url": "http://127.0.0.1/",
+        "badge": "Hack",
+        "badgeColor": "#E53935",
+        "title": "Test Title 9",
+        "date": "01/02/2024"
+    },
+    "10": {
+        "url": "http://127.0.0.1/",
+        "badge": "Info",
+        "badgeColor": "#00ACC1",
+        "title": "Test Title 10",
+        "date": "01/02/2024"
+    }
+}

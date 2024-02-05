@@ -1,0 +1,11 @@
+{
+    "Resolution": {
+        "Fullscreen": 2,
+        "Width": 800,
+        "Height": 600
+    },
+    "Game": {
+        "Language": "TR",
+        "Fps": 90
+    }
+}

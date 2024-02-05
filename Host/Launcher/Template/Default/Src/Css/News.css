@@ -1,0 +1,68 @@
+@import url('./Reset.css');
+body {
+    font-weight: 100;
+    font-size: 12px;
+    color: #fff!important;
+    overflow: overlay;
+    height: 100%;
+    width: 100%;
+    background-image: url('../Img/FrameBg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.News {
+    margin: 17px 25px;
+}
+
+.News ul li {
+    display: flex;
+    justify-content:space-between;
+    padding: 6px 0;
+    border-bottom: 1px solid #757575;
+}
+
+.News ul li:last-child {
+  border-bottom: none;
+}
+
+.News ul li div:first-child span {
+  min-width: 35px;
+  font-size: 8px;
+  font-weight: 400;
+  padding: 3px 7px;
+  transform: skew(-20deg);
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.News ul li div:first-child span p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: skew(20deg);
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+.News ul li div:first-child a {
+  font-size: 12px;
+  color: #EEEEEE;
+  margin-left: 10px;
+  transition: .3s all;
+}
+
+.News ul li div:first-child a:hover {
+  color: #BDBDBD;
+}
+
+.News ul li div:last-child {
+  font-size: 10px;
+  font-style: italic;
+  color: #9E9E9E;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}

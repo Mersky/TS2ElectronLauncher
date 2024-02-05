@@ -1,0 +1,89 @@
+@import url('./Reset.css');
+body {
+    font-weight: 100;
+    font-size: 12px;
+    color: #fff!important;
+    overflow: overlay;
+    height: 100%;
+    width: 100%;
+    background-image: url('../Img/FrameBg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.Settings {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.Settings form {
+    width: 90%;
+}
+
+.Settings fieldset {
+  border: medium none !important;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+.Settings legend {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.Settings label {
+
+  font-size: 12px;
+  font-weight: 300;
+  
+}
+
+.Settings select {
+  margin-top: 3px;
+  width: 100%;
+  border: 1px solid #757575;
+  color: #BDBDBD;
+  background: #212121;
+  padding: 5px;
+  border-radius: 4px;
+  font: 400 11px "Roboto", Helvetica, Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
+.Settings select:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border-color: #BDBDBD;
+}
+
+.Settings input[type="submit"] {
+    background-image: url('../img/button.png');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 96px;
+    height: 31px;
+    font-size: 12px;
+    cursor: pointer;
+    color: #8c96a1;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    float: right;
+}
+
+.Settings input[type="submit"]:hover {
+  background-image: url('../img/buttonHover.png');
+  color: #00ffff;
+}
+
+.Settings input[type="submit"]:disabled,
+.Settings input[type="submit"]:active {
+  background-image: url('../img/buttonDisable.png');
+  color: #585e65;
+  cursor: default;
+}

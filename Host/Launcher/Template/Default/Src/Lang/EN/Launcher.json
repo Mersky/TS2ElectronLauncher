@@ -1,0 +1,17 @@
+{
+    "updateNotFound": "Update not found.",
+    "updateNotFoundSecond": "...",
+    "updateSuccess": "Update successfully completed.",
+    "syncMessage": "Synchronizing... ({totalDownloadedCount} / {totalUpdateFileCount})",
+    "updateMessage": "Downloading... ({totalDownloadedCount} / {totalUpdateFileCount})",
+    "updateChecking": "Checking for updates...",
+
+    "notice": "Notices",
+    "copyright": "Copyright © 2024. All rights reserved.",
+    "version": "Version",
+    "process": "Process",
+    "home": "Home",
+    "settings": "Settings",
+    "start": "Start",
+    "exit": "Exit"
+}

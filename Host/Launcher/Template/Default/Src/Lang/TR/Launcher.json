@@ -1,0 +1,17 @@
+{
+    "updateNotFound": "Güncelleme bulunamadı.",
+    "updateNotFoundSecond": "...",
+    "updateSuccess": "Güncelleme başarıyla tamamlandı.",
+    "syncMessage": "Senkronize Ediliyor... ({totalDownloadedCount} / {totalUpdateFileCount})",
+    "updateMessage": "İndiriliyor... ({totalDownloadedCount} / {totalUpdateFileCount})",
+    "updateChecking": "Kontrol ediliyor...",
+
+    "notice": "Duyurular",
+    "copyright": "Copyright &copy; 2024. Tüm hakları saklıdır.",
+    "version": "Versiyon",
+    "process": "Süreç",
+    "home": "Anasayfa",
+    "settings": "Ayarlar",
+    "start": "Başlat",
+    "exit": "Kapat"
+}

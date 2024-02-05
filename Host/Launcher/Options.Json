@@ -1,0 +1,15 @@
+{
+    "ftpClientDir": "mainClient",
+
+    "clientExe": "TwelveSky2.exe",
+    "clientFirstParameters": "/0",
+    "clientLastParameters": "",
+
+    "launcherTemplate": "Default",
+    "launcherTitle": "TwelveSky2 Launcher",
+    "launcherWidth": 714,
+    "launcherHeight": 591,
+    "launcherTransparent": true,
+    "launcherFrame": false,
+    "launcherResizable": false
+}

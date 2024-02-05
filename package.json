@@ -1,0 +1,44 @@
+{
+  "name": "twelvesky2-launcher",
+  "author": "Mersky",
+  "description": "A very customized TwelveSky2 Launcher made in Electron with JavaScript.",
+  "license": "ISC",
+  "version": "1.0.0",
+  "main": "./Launcher/Main.js",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --win"
+  },
+  "build": {
+    "compression": "normal",
+    "appId": "com.mersky.twelvesky2launcher",
+    "productName": "TwelveSky2 Launcher",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "icon": "./Launcher/Resource/Platform.ico",
+      "requestedExecutionLevel": "requireAdministrator",
+      "target": [
+        "portable",
+        "zip"
+      ]
+    },
+    "portable": {
+      "artifactName": "Launcher.exe",
+      "requestExecutionLevel": "admin",
+      "unpackDirName": "Launcher"
+    }
+  },
+  "devDependencies": {
+    "electron": "^28.2.0",
+    "electron-builder": "^24.9.1"
+  },
+  "dependencies": {
+    "basic-ftp": "^5.0.4",
+    "crypto": "^1.0.1",
+    "ini": "^4.1.1"
+  }
+}

@@ -1,0 +1,72 @@
+{
+    "1": {
+        "url": "http://127.0.0.1/",
+        "badge": "Yeni",
+        "badgeColor": "#43A047",
+        "title": "Deneme Başlık 1",
+        "date": "01/02/2024"
+    },
+    "2": {
+        "url": "http://127.0.0.1/",
+        "badge": "Bilgi",
+        "badgeColor": "#00ACC1",
+        "title": "Deneme Başlık 2",
+        "date": "01/02/2024"
+    },
+    "3": {
+        "url": "http://127.0.0.1/",
+        "badge": "Hile",
+        "badgeColor": "#E53935",
+        "title": "Deneme Başlık 3",
+        "date": "01/02/2024"
+    },
+    "4": {
+        "url": "http://127.0.0.1/",
+        "badge": "Yeni",
+        "badgeColor": "#43A047",
+        "title": "Deneme Başlık 4",
+        "date": "01/02/2024"
+    },
+    "5": {
+        "url": "http://127.0.0.1/",
+        "badge": "Bilgi",
+        "badgeColor": "#00ACC1",
+        "title": "Deneme Başlık 5",
+        "date": "01/02/2024"
+    },
+    "6": {
+        "url": "http://127.0.0.1/",
+        "badge": "Hile",
+        "badgeColor": "#E53935",
+        "title": "Deneme Başlık 6",
+        "date": "01/02/2024"
+    },
+    "7": {
+        "url": "http://127.0.0.1/",
+        "badge": "Yeni",
+        "badgeColor": "#43A047",
+        "title": "Deneme Başlık 7",
+        "date": "01/02/2024"
+    },
+    "8": {
+        "url": "http://127.0.0.1/",
+        "badge": "Bilgi",
+        "badgeColor": "#00ACC1",
+        "title": "Deneme Başlık 8",
+        "date": "01/02/2024"
+    },
+    "9": {
+        "url": "http://127.0.0.1/",
+        "badge": "Hile",
+        "badgeColor": "#E53935",
+        "title": "Deneme Başlık 9",
+        "date": "01/02/2024"
+    },
+    "10": {
+        "url": "http://127.0.0.1/",
+        "badge": "Bilgi",
+        "badgeColor": "#00ACC1",
+        "title": "Deneme Başlık 10",
+        "date": "01/02/2024"
+    }
+}

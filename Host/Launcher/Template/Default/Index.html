@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Src/css/Launcher.css">
+</head>
+<body>
+    <section class="Launcher">
+        <div class="Banner">
+            <img src="./Src/Img/Logo.png" alt="TwelveSky2">
+            <p class="Copyright"></p>
+        </div>
+
+        <div class="Title">
+            <h6 class="Notice"></h6>
+            <ul class="Logos">
+                <li><img src="./Src/Img/Aeria.png" alt="Aeria"></li>
+            </ul>
+        </div>
+
+        <div class="HtmlIframe">
+            <iframe id="Iframe" type="text/html" width="100%" height="100%"></iframe>
+        </div>
+
+        <div class="ProgressTitle">
+            <p class="Version"></p>
+            <p class="Process"></p>
+        </div>
+        
+        <div class="Progress">
+            <div class="MainProgress">
+                <p id="VersionInfo"></p>
+                <progress id="VersionProgress" max="100" value="0"></progress>
+            </div>
+            <div class="SecondProgress">
+                <p id="ProcessInfo"></p>
+                <progress id="ProcessProgress" max="100" value="0"></progress>
+            </div>
+        </div>
+
+        <div class="Buttons">
+            <button id="HomeButton" class="Btn MainButton" value="Home"></button>
+            <button id="OptionButton" class="Btn MainButton" value="Option"></button>
+            <button id="StartButton" class="Btn MainButton" disabled value="Start"></button>
+            <button id="ExitButton" class="Btn MainButton" value="Exit"></button>
+        </div>
+        
+    </section>
+    <script src="./Src/js/Launcher.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+{
+    "schema": {
+      "Resolution": {
+        "type": "object",
+        "title": "{{values.resolutionSettingsTitle}}",
+        "properties": {
+          "Fullscreen": {
+            "type": "string",
+            "title": "{{values.fullscreenLabel}}",
+            "enum": ["1", "2"]
+          },
+          "ClientResolution": {
+            "type": "string",
+            "title": "{{values.clientResolutionLabel}}",
+            "enum": ["640x480",
+                    "800x600",
+                    "960x720",
+                    "1024x576",
+                    "1024x768",
+                    "1152x648",
+                    "1280x720",
+                    "1280x800",
+                    "1280x960",
+                    "1366x768",
+                    "1440x900",
+                    "1400x1050",
+                    "1440x1080",
+                    "1600x900",
+                    "1600x1200",
+                    "1680x1050",
+                    "1856x1392",
+                    "1920x1080",
+                    "1920x1200",
+                    "1920x1440",
+                    "2048x1536",
+                    "2560x1440",
+                    "2560x1600"]
+          }
+        }
+      },
+      "Game": {
+        "type": "object",
+        "title": "{{values.gameSettingsTitle}}",
+        "properties": {
+          "Language": {
+            "type": "string",
+            "title": "{{values.languageLabel}}",
+            "enum": ["TR", "EN"]
+          },
+          "Fps": {
+            "type": "string",
+            "title": "{{values.fpsLabel}}",
+            "enum": ["30", "60", "90", "120", "144"]
+          }
+        }
+      }
+    },
+    "form":
+    [
+        {
+            "type": "fieldset",
+            "title": "{{values.resolutionSettingsTitle}}",
+            "items": [
+                {
+                    "key": "Resolution.Fullscreen",
+                    "value": "{{values.fullscreenValue}}",
+                    "titleMap": {
+                        "1": "{{values.fullscreenMode}}",
+                        "2": "{{values.windowMode}}"
+                    }
+                },
+                {
+                    "key": "Resolution.ClientResolution",
+                    "value": "{{values.clientResolutionValue}}"
+                }
+            ]
+        },
+        {
+            "type": "fieldset",
+            "title": "{{values.gameSettingsTitle}}",
+            "items": [
+                {
+                    "key": "Game.Language",
+                    "value": "{{values.languageValue}}",
+                    "titleMap": {
+                        "TR": "{{values.turkish}}",
+                        "EN": "{{values.english}}"
+                    }
+                },
+                {
+                    "key": "Game.Fps",
+                    "value": "{{values.fpsValue}}"
+                }
+            ]
+        },
+        {
+          "type": "actions",
+          "items": [
+            {
+              "type": "submit",
+              "title": "{{values.save}}"
+            }
+          ]
+        }
+      ]
+  }

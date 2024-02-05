@@ -1,0 +1,14 @@
+{
+    "resolutionSettingsTitle": "Resolution settings",
+    "fullscreenLabel": "Screen mode",
+    "fullscreenMode": "Fullscreen mode",
+    "windowMode": "Windowed mode",
+    "clientResolutionLabel": "Active resolution",
+
+    "gameSettingsTitle": "Game settings",
+    "languageLabel": "Active language",
+    "fpsLabel": "FPS settings",
+    "turkish": "Türkçe",
+    "english": "English",
+    "save": "Save"
+}

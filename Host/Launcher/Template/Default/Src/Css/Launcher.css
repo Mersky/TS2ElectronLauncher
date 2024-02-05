@@ -1,0 +1,177 @@
+@import url('./Reset.css');
+
+body {
+    -webkit-app-region: drag!important;
+}
+
+.Launcher {
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 714px;
+    height: 591px;
+    position: relative;
+}
+
+.Banner {
+    width: 200px;
+    position: absolute;
+    bottom: 12px;
+    left: 30px;
+}
+
+.Banner Img {
+    width: 160px;
+    margin-bottom: 18px;
+}
+
+.Banner .Copyright {
+    font-size: 10px;
+    color: #fff;
+}
+
+.Title {
+    position: absolute;
+    top: 137px;
+    right: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 444px;
+    height: 20px;
+}
+
+.Title h6 {
+    color: #b5b5b5;
+    font-size: 14px;
+    letter-spacing: .5px;
+}
+
+.Title .Logos {
+    display: flex;
+}
+
+.Title .Logos li Img {
+    width: 50px;
+    margin-left: 8px;
+}
+
+.HtmlIframe {
+    width: 453px;
+    height: 305px;
+    position: absolute;
+    right: 37.5px;
+    top: 165px;
+}
+
+.HtmlIframe iframe,
+.HtmlIframe embed {
+    border: none;
+    border-radius: 6px;
+    -webkit-app-region: no-drag;
+}
+
+.ProgressTitle {
+    position: absolute;
+    left: 234px;
+    bottom: 54px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.ProgressTitle .Version {
+    margin-bottom: 12px;
+}
+
+.Progress {
+    position: absolute;
+    right: 46px;
+    top: 487px;
+    width: 375px;
+}
+
+.Progress .MainProgress,
+.Progress .SecondProgress {
+    position: relative;
+    height: 19px;
+}
+
+.Progress .MainProgress {
+    margin-bottom: 6px;
+}
+
+.Progress .MainProgress progress {
+    position: absolute;
+    top: 15px;
+}
+
+.Progress .SecondProgress progress {
+    position: absolute;
+    top: 15px;
+}
+
+.Progress p {
+    font-size: 11px;
+    color: #fff;
+}
+
+.Progress progress {
+    padding: 0!important;
+    margin: 0!important;
+    height: 7px;
+    width: 100%;
+    background: #000;
+    border: none;
+    -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+}
+
+.Progress .MainProgress progress::-webkit-progress-value {
+    background: linear-gradient(180deg, rgba(15,71,128,1) 0%, rgba(32,164,255,1) 50%, rgba(15,56,97,1) 100%);
+}
+
+.Progress .SecondProgress progress::-webkit-progress-value {
+    background: linear-gradient(180deg, rgba(125,20,17,1) 0%, rgba(255,40,51,1) 50%, rgba(94,19,16,1) 100%);
+}
+
+.Progress progress::-webkit-progress-bar {
+    background: #000;
+}
+
+.Buttons {
+    display: flex;
+    gap: 28.6px;
+    position: absolute;
+    bottom: 7px;
+    right: 29px;
+}
+
+.Buttons .Btn {
+    -webkit-app-region: no-drag;
+    background-image: url('../Img/Button.png');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 96px;
+    height: 31px;
+    font-size: 12px;
+    cursor: pointer;
+    color: #8c96a1;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.Buttons .Btn:hover {
+    background-image: url('../Img/buttonHover.Png');
+    color: #00ffff;
+}
+
+.Buttons .Btn:disabled,
+.Buttons .Btn:active {
+    background-image: url('../Img/buttonDisable.Png');
+    color: #585e65;
+    cursor: default;
+}

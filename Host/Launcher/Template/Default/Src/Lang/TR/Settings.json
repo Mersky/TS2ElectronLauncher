@@ -1,0 +1,14 @@
+{
+    "resolutionSettingsTitle": "Çözünürlük ayarları",
+    "fullscreenLabel": "Ekran modu",
+    "fullscreenMode": "Tam ekran modu",
+    "windowMode": "Pencere modu",
+    "clientResolutionLabel": "Aktif çözünürlük",
+
+    "gameSettingsTitle": "Oyun ayarları",
+    "languageLabel": "Aktif dil",
+    "fpsLabel": "FPS ayarları",
+    "turkish": "Türkçe",
+    "english": "English",
+    "save": "Kaydet"
+}
