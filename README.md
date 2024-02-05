@@ -12,10 +12,15 @@ we are disabled
 
 create .htaccess file
 
+
 Header set Access-Control-Allow-Origin "*"
+
 Header set Access-Control-Allow-Methods "GET, POST, OPTIONS, PUT, PATCH, DELETE"
+
 Header set Access-Control-Allow-Headers "Content-Type, Authorization"
+
 Header set Access-Control-Allow-Credentials "true"
+
 
 copy and save
 
@@ -28,11 +33,13 @@ npm install
 npm run pack
 
 
+
 language files
 
 Host/Launcher/Template/Default/Src/Lang
 
 Host/Launcher/News
+
 
 
 get web panel to launcher json data
