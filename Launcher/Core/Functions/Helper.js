@@ -60,7 +60,7 @@ export function runExeWithArgs(args) {
         }
         parameters += await getJson('Options', ['clientLastParameters'])
 
-        const child = spawn(exe, [parameters], {detached: true, stdio: 'ignore'})
+        const child = spawn(exe, [parameters], {cwd: Settings.appPath, detached: true, stdio: 'ignore'})
 
         child.unref()
 
